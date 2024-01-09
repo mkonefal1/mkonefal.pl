@@ -1,5 +1,5 @@
-baseURL = "https://matekone.pl"
-title = "mkonefal"
+baseURL = "https://mkonefal.pl"
+title = "MKonefal"
 theme = "etch"
 languageCode = "pl-PL"
 enableInlineShortcodes = true
