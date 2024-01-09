@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal site">
+    
+    <link rel="shortcut icon" href="https://matekone.pl/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://matekone.pl/change-the-default-terminal-emulator-in-ubuntu/" />
+    <title>Change the default terminal emulator in Ubuntu</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://matekone.pl">mkonefal</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/links/" title="links">links</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Change the default terminal emulator in Ubuntu</h1>
+        <div>
+                <time>January 9, 2024</time>
+            </div>
+    </header><ol>
+<li>Create symbolic link to x-terminal-emulator</li>
+</ol>
+<pre tabindex="0"><code>sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1
+</code></pre><ol start="2">
+<li>Select your terminal to use as default</li>
+</ol>
+<pre tabindex="0"><code>sudo update-alternatives --config x-terminal-emulator
+</code></pre><h3 id="restore-and-remove-the-alternative-link">Restore and remove the alternative link</h3>
+<pre tabindex="0"><code>sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL
+</code></pre></article>
+
+        </main><footer id="footer">
+    Copyright © 2024 Mateusz Konefał
+</footer>
+</body>
+</html>
