@@ -1,6 +1,6 @@
 baseURL = "https://mkonefal.pl"
 title = "MKonefal"
-theme = "etch"
+theme = "holy"
 languageCode = "pl-PL"
 enableInlineShortcodes = true
 pygmentsCodeFences = true

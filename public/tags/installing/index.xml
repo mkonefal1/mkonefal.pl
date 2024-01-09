@@ -1,70 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installing on mkonefal</title>
-    <link>https://matekone.pl/tags/installing/</link>
-    <description>Recent content in Installing on mkonefal</description>
+    <title>Installing on MKonefal</title>
+    <link>https://mkonefal.pl/tags/installing/</link>
+    <description>Recent content in Installing on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://matekone.pl/tags/installing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-      <title>Change the default terminal emulator in Ubuntu</title>
-      <link>https://matekone.pl/change-the-default-terminal-emulator-in-ubuntu/</link>
-      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://matekone.pl/change-the-default-terminal-emulator-in-ubuntu/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Create symbolic link to x-terminal-emulator&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Select your terminal to use as default&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo update-alternatives --config x-terminal-emulator
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;restore-and-remove-the-alternative-link&#34;&gt;Restore and remove the alternative link&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    
-    
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mkonefal.pl/tags/installing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing tar.* apps</title>
-      <link>https://matekone.pl/installing-tar.-apps/</link>
+      <link>https://mkonefal.pl/installing-tar.-apps/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://matekone.pl/installing-tar.-apps/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Copy .tar.* to /opt/&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd Downloads
-sudo cp PROGRAM.TAR.* /opt/
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Extract and remove compressed file&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd /opt/
-sudo tar -xvf PROGRAM.TAR.*
-sudo rm -rf PROGRAM.TAR.*
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Change mode&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo chmod 777 PROGRAM(EXTRACT)
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;To open apps in launcher create link to /usr/bin/&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo ln -s /opt/PROGRAM(EXT)/ /usr/bin/PROGRAM-NAME
-&lt;/code&gt;&lt;/pre&gt;</description>
+      <guid>https://mkonefal.pl/installing-tar.-apps/</guid>
+      <description> Copy .tar.* to /opt/  cd Downloads sudo cp PROGRAM.TAR.* /opt/ Extract and remove compressed file  cd /opt/ sudo tar -xvf PROGRAM.TAR.* sudo rm -rf PROGRAM.TAR.* Change mode  sudo chmod 777 PROGRAM(EXTRACT) To open apps in launcher create link to /usr/bin/  sudo ln -s /opt/PROGRAM(EXT)/ /usr/bin/PROGRAM-NAME </description>
     </item>
-    
-    
-    
-    
-    
     
   </channel>
 </rss>
