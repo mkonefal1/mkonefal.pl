@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mkonefal.pl/better-way-to-blog-try-hugo/</loc>
+    <lastmod>2024-01-10T01:58:33+01:00</lastmod>
+  </url><url>
+    <loc>https://mkonefal.pl/</loc>
+    <lastmod>2024-01-10T01:58:33+01:00</lastmod>
+  </url><url>
+    <loc>https://mkonefal.pl/posts/</loc>
+    <lastmod>2024-01-10T01:58:33+01:00</lastmod>
+  </url><url>
     <loc>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mkonefal.pl/tags/cli/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mkonefal.pl/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mkonefal.pl/tags/installing/</loc>
@@ -18,9 +24,6 @@
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mkonefal.pl/tags/linux/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mkonefal.pl/posts/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mkonefal.pl/tags/</loc>

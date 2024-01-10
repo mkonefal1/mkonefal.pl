@@ -6,7 +6,16 @@
     <description>Recent content in Home on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mkonefal.pl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 01:58:33 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better way to blog, try Hugo</title>
+      <link>https://mkonefal.pl/better-way-to-blog-try-hugo/</link>
+      <pubDate>Wed, 10 Jan 2024 01:58:33 +0100</pubDate>
+      
+      <guid>https://mkonefal.pl/better-way-to-blog-try-hugo/</guid>
+      <description>Wordpress is bloated A few years ago, WordPress used to be the primary way of running a blog. Unfortunately, it&amp;rsquo;s now considered a rather outdated tool that, in today&amp;rsquo;s times, hinders more than it helps in creating online content. For novices, WordPress might be appealing due to its GUI editor and extensive admin panel. However, the majority of people who want to share their writings online won&amp;rsquo;t utilize even 80% of WordPress&amp;rsquo;s capabilities.</description>
+    </item>
+    
     <item>
       <title>Change the default terminal emulator in Ubuntu</title>
       <link>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</link>
@@ -31,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mkonefal.pl/about/</guid>
-      <description>Self Taught Front End Developer (still learning) I am Mateusz Konefał and I am 26 years old. Currently, I am learning programming. My goal is to become a full-stack developer, and I am currently focusing on front-end development and technologies such as HTML, CSS, JS, Python.
+      <description>Self Taught Front End Developer (still learning) I am Mateusz Konefał and I am 27 years old. Currently, I am learning programming. My goal is to become a full-stack developer, and I am currently focusing on front-end development and technologies such as HTML, CSS, JS, Python.
 Outside of work and study, I am interested in Linux, cybersecurity, video games (especially on consoles like Xbox and Nintendo Switch), electronics, and astrophysics.</description>
     </item>
     
