@@ -6,7 +6,16 @@
     <description>Recent content in Posts on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Wed, 10 Jan 2024 01:58:33 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 22:12:33 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cult of Done Manifesto</title>
+      <link>https://mkonefal.pl/the-cult-of-done-manifesto/</link>
+      <pubDate>Wed, 10 Jan 2024 22:12:33 +0100</pubDate>
+      
+      <guid>https://mkonefal.pl/the-cult-of-done-manifesto/</guid>
+      <description>There are three states of being. Not knowing, action and completion. Accept that everything is a draft. It helps to get it done. There is no editing stage. Pretending you know what you’re doing is almost the same as knowing what you are doing, so just accept that you know what you’re doing even if you don’t and do it. Banish procrastination. If you wait more than a week to get an idea done, abandon it.</description>
+    </item>
+    
     <item>
       <title>Better way to blog, try Hugo</title>
       <link>https://mkonefal.pl/better-way-to-blog-try-hugo/</link>
