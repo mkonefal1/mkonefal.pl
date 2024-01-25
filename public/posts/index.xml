@@ -6,7 +6,17 @@
     <description>Recent content in Posts on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Wed, 10 Jan 2024 22:12:33 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 02:33:41 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Appimage apps</title>
+      <link>https://mkonefal.pl/how-to-install-appimage-apps/</link>
+      <pubDate>Thu, 25 Jan 2024 02:33:41 +0100</pubDate>
+      
+      <guid>https://mkonefal.pl/how-to-install-appimage-apps/</guid>
+      <description>AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to provide a universal packaging format for all Linux distributions. Essentially, an AppImage is a self-contained package that contains an application and everything it needs to run that might not be present on each Linux system (like libraries and other dependencies).
+One of the key features of AppImage is its simplicity: users just need to download a single AppImage file, make it executable, and run it.</description>
+    </item>
+    
     <item>
       <title>The Cult of Done Manifesto</title>
       <link>https://mkonefal.pl/the-cult-of-done-manifesto/</link>

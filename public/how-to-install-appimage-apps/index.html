@@ -4,11 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Posts - MKonefal</title>
+    <title>How to install Appimage apps - MKonefal</title>
 
     
     
-    <meta name="description" content="Personal site" />
+    <meta name="description" content="AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to provide a universal packaging format for all Linux distributions. Essentially, an AppImage is a self-contained package that contains an application and everything it needs to run that might not be present on each Linux system (like libraries and other dependencies).
+One of the key features of AppImage is its simplicity: users just need to download a single AppImage file, make it executable, and run it." />
     <meta name="author" content="" />
     
 
@@ -85,11 +86,10 @@
 </nav>
 <div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
         <div class="max-w:700 w:full box:content-box">
-<div>
-    <article class="box:border-box pt:32 w:full">
-        <header class="mb:32">
-            <div class="font:40 font:extrabold">Posts</div>
-        </header><div class="
+<article class="box:border-box pt:32">
+    <header class="mb:32">
+        <div class="font:40 font:extrabold">How to install Appimage apps</div>
+    </header><div class="
     _:where(a):hover{text-decoration-color:fade}
     _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
     _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -126,45 +126,35 @@
     _:where(video,img){max-width:full}
     _:where(a,mark){text-underline-offset:3}
     _:where(hr){h:2;_bg:fade-10;_bg:fade-70@dark;_my:3em}
-"></div></article>
-    <ul>
-                <li>
-                    <div class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in">
-                        <a class="f:24 font:semibold" href="https://mkonefal.pl/how-to-install-appimage-apps/">
-                            <div>How to install Appimage apps</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in">
-                        <a class="f:24 font:semibold" href="https://mkonefal.pl/the-cult-of-done-manifesto/">
-                            <div>The Cult of Done Manifesto</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in">
-                        <a class="f:24 font:semibold" href="https://mkonefal.pl/better-way-to-blog-try-hugo/">
-                            <div>Better way to blog, try Hugo</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in">
-                        <a class="f:24 font:semibold" href="https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/">
-                            <div>Change the default terminal emulator in Ubuntu</div>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="mb:16 py:24 f:fade-30 f:fade-10:hover transition:150ms;ease-in">
-                        <a class="f:24 font:semibold" href="https://mkonefal.pl/installing-tar.-apps/">
-                            <div>Installing tar.* apps</div>
-                        </a>
-                    </div>
-                </li>
-    </ul>
-</div>
+"><p>AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to provide a universal packaging format for all Linux distributions. Essentially, an AppImage is a self-contained package that contains an application and everything it needs to run that might not be present on each Linux system (like libraries and other dependencies).</p>
+<p>One of the key features of AppImage is its simplicity: users just need to download a single AppImage file, make it executable, and run it. There&rsquo;s no need for unpacking or installation. This makes it incredibly user-friendly, especially for those who are new to Linux or prefer not to deal with the complexity of package managers.</p>
+<p>AppImages are also system-agnostic. They should run across different Linux distributions without any modifications, making them ideal for software developers looking to distribute their applications to a broad Linux audience without having to package for multiple different distributions.</p>
+<p>Another advantage of AppImage is that it doesn&rsquo;t affect the rest of the system. The application is isolated in its own package, reducing the risk of system libraries being altered or damaged. This makes AppImage a very safe method of software distribution and use.</p>
+<p>Overall, AppImage is an innovative solution for software distribution in the Linux ecosystem, focusing on simplicity, portability, and ease of use.</p>
+<h2 id="how-to-install">How to install</h2>
+<ol>
+<li>Make dir <code>appimage-apps</code></li>
+<li>In <code>appimage-apps</code>  make dir with app name</li>
+<li>Copy  .appimage file into that dir</li>
+<li><code>chmod 777 APPNAME.appimage</code></li>
+<li>Download png with icon and place it in same dir</li>
+<li>Create file <code>APP-NAME.desktop</code></li>
+<li>Open that file in text editor and paste:</li>
+</ol>
+<pre tabindex="0"><code>[Desktop Entry]
+Name=YourApp
+Exec=/path/to/app.AppImage
+Icon=/path/to/nextcloud-icon.png
+comment=app
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=Utility;
+</code></pre><ol start="8">
+<li>`chmod 777 APP_NAME.desktop</li>
+<li><code>sudo cp /home/appimage-apps/APP-DIR/APP-NAME.desktop /usr/share/applications/</code></li>
+</ol>
+</div></article>
 <footer class="py:24">
     <div class="f:fade-30 f:14 mb:8">Copyright © 2024 Mateusz Konefał</div>
     <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
