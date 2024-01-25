@@ -33,6 +33,6 @@ Terminal=false
 Encoding=UTF-8
 Categories=Utility;
 ```
-8. `chmod 777 APP_NAME.desktop 
+8. `chmod 777 APP_NAME.desktop`
 8. `sudo cp /home/appimage-apps/APP-DIR/APP-NAME.desktop /usr/share/applications/`
 
