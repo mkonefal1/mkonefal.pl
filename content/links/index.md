@@ -9,5 +9,5 @@ title =  "Links"
 
 ---
 
-- ### [Searx](http://57.128.199.56:32768/) *Working on Nginx proxy manager to make HTTPS and costum subdomain*
+- ### [Searx](http://57.128.199.56:32768/) 
 
