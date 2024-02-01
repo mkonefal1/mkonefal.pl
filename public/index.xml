@@ -59,8 +59,8 @@ One of the key features of AppImage is its simplicity: users just need to downlo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mkonefal.pl/about/</guid>
-      <description>Self Taught Front End Developer (still learning) I am Mateusz Konefał and I am 27 years old. Currently, I am learning programming. My goal is to become a full-stack developer, and I am currently focusing on front-end development and technologies such as HTML, CSS, JS, Python.
-Outside of work and study, I am interested in Linux, cybersecurity, video games (especially on consoles like Xbox and Nintendo Switch), electronics, and astrophysics.</description>
+      <description>Self Taught Programmer (still learning) Hello! I&amp;rsquo;m Mateusz Konefał, a passionate 27-year-old programmer with a keen interest in technology and innovation. My journey in the tech world has been self-taught and ever-evolving. Initially focused on front-end development, I have now expanded my expertise to include Python and C, aiming to enhance my skills as a versatile programmer.
+My ultimate goal is to become a full-stack developer, blending my knowledge of HTML, CSS, JS, Python, and C to create seamless, user-friendly digital experiences.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Outside of work and study, I am interested in Linux, cybersecurity, video games 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mkonefal.pl/links/</guid>
-      <description>  Github   Linkedin   Youtube   Twitter/X   </description>
+      <description>  Github   Linkedin   Youtube   Twitter/X      Searx Working on Nginx proxy manager to make HTTPS and costum subdomain   </description>
     </item>
     
   </channel>

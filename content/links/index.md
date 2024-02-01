@@ -7,3 +7,7 @@ title =  "Links"
 - ## [Youtube](https://www.youtube.com/@makooo97)
 - ## [Twitter/X](https://twitter.com/mkonefal1)
 
+---
+
+- ### [Searx](http://57.128.199.56:32768/) *Working on Nginx proxy manager to make HTTPS and costum subdomain*
+
