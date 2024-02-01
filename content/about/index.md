@@ -18,4 +18,4 @@ As I continue to learn and grow in this dynamic field, I am excited about the op
 
 Let's connect and create something amazing together! 
 
-Fill free to contact me:  mkonefal1(at)gmail.com
+Feel free to contact me:  mkonefal1(at)gmail.com
