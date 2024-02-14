@@ -6,7 +6,7 @@ title = "About"
 
 Hello! I'm Mateusz Konefał, a passionate 27-year-old programmer with a keen interest in technology and innovation. My journey in the tech world has been self-taught and ever-evolving. Initially focused on front-end development, I have now expanded my expertise to include Python and C, aiming to enhance my skills as a versatile programmer.
 
-<div align="center"><img src="/img_me.jpg" width=500px></div>
+<div align="center"><img src="/Subject.png" width=500px></div>
 
 My ultimate goal is to become a full-stack developer, blending my knowledge of HTML, CSS, JS, Python, and C to create seamless, user-friendly digital experiences. What drives me is not just the code, but the creative and problem-solving aspects of programming.
 
