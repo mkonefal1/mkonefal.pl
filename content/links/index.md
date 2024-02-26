@@ -9,6 +9,5 @@ title =  "Links"
 
 ---
 
-- ### [Searx](http://57.128.199.56:32768/) 
-- ### Test test test
+- ### [Searx](https://s.matekone.pl) 
 
