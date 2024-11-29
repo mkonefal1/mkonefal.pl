@@ -159,7 +159,7 @@ sudo apt install git hugo
 <p>Start by creating a repository on Github. Download it to your computer using the <code>git clone</code> command. In the repository folder, create the skeleton of your site with the <code>hugo new site &lt;name&gt;</code> command. Then, add your chosen theme to the repository using the <code>git add submodule</code> command. It&rsquo;s important to place the theme in the Themes folder.</p>
 <p>Next, configure your site in the <code>config.toml</code> file. Most themes have sample configurations in their repositories. It&rsquo;s best to copy these and customize them to your needs.</p>
 <p>Important: Fill in information about your theme first.</p>
-<pre tabindex="0"><code>echo &quot;theme = '&lt;theme-name&gt;'&quot; &gt;&gt; config.toml
+<pre tabindex="0"><code>echo &#34;theme = &#39;&lt;theme-name&gt;&#39;&#34; &gt;&gt; config.toml
 </code></pre><p>If everything has been done correctly, you can now run your local server using the <code>hugo server</code> command.</p>
 <h3 id="5-adding-content">5. Adding Content</h3>
 <p>You can do this automatically or manually.</p>
@@ -170,8 +170,8 @@ sudo apt install git hugo
 <p>The advantage of the first method is that it automatically generates a header with basic information such as title and publication date.</p>
 <p>Sample header:</p>
 <pre tabindex="0"><code>---
-title = &quot;&quot;
-date = &quot;&quot;
+title = &#34;&#34;
+date = &#34;&#34;
 ---
 </code></pre><h3 id="6-generating-the-site">6. Generating the Site</h3>
 <p>Once you&rsquo;ve written your first article, return to the main folder and generate the site with the <code>hugo</code> command. Now, all that&rsquo;s left is to push it to Github.</p>

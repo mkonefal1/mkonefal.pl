@@ -6,71 +6,49 @@
     <description>Recent content in Home on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Thu, 25 Jan 2024 02:33:41 +0100</lastBuildDate><atom:link href="https://mkonefal.pl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 02:33:41 +0100</lastBuildDate>
+    <atom:link href="https://mkonefal.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Appimage apps</title>
       <link>https://mkonefal.pl/how-to-install-appimage-apps/</link>
       <pubDate>Thu, 25 Jan 2024 02:33:41 +0100</pubDate>
-      
       <guid>https://mkonefal.pl/how-to-install-appimage-apps/</guid>
-      <description>AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to provide a universal packaging format for all Linux distributions. Essentially, an AppImage is a self-contained package that contains an application and everything it needs to run that might not be present on each Linux system (like libraries and other dependencies).
-One of the key features of AppImage is its simplicity: users just need to download a single AppImage file, make it executable, and run it.</description>
+      <description>AppImage is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to provide a universal packaging format for all Linux distributions. Essentially, an AppImage is a self-contained package that contains an application and everything it needs to run that might not be present on each Linux system (like libraries and other dependencies).&#xA;One of the key features of AppImage is its simplicity: users just need to download a single AppImage file, make it executable, and run it.</description>
     </item>
-    
-    <item>
-      <title>The Cult of Done Manifesto</title>
-      <link>https://mkonefal.pl/the-cult-of-done-manifesto/</link>
-      <pubDate>Wed, 10 Jan 2024 22:12:33 +0100</pubDate>
-      
-      <guid>https://mkonefal.pl/the-cult-of-done-manifesto/</guid>
-      <description>There are three states of being. Not knowing, action and completion. Accept that everything is a draft. It helps to get it done. There is no editing stage. Pretending you know what you’re doing is almost the same as knowing what you are doing, so just accept that you know what you’re doing even if you don’t and do it. Banish procrastination. If you wait more than a week to get an idea done, abandon it.</description>
-    </item>
-    
     <item>
       <title>Better way to blog, try Hugo</title>
       <link>https://mkonefal.pl/better-way-to-blog-try-hugo/</link>
       <pubDate>Wed, 10 Jan 2024 01:58:33 +0100</pubDate>
-      
       <guid>https://mkonefal.pl/better-way-to-blog-try-hugo/</guid>
       <description>Wordpress is bloated A few years ago, WordPress used to be the primary way of running a blog. Unfortunately, it&amp;rsquo;s now considered a rather outdated tool that, in today&amp;rsquo;s times, hinders more than it helps in creating online content. For novices, WordPress might be appealing due to its GUI editor and extensive admin panel. However, the majority of people who want to share their writings online won&amp;rsquo;t utilize even 80% of WordPress&amp;rsquo;s capabilities.</description>
     </item>
-    
     <item>
       <title>Change the default terminal emulator in Ubuntu</title>
       <link>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</guid>
-      <description> Create symbolic link to x-terminal-emulator  sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1 Select your terminal to use as default  sudo update-alternatives --config x-terminal-emulator Restore and remove the alternative link sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL </description>
+      <description> Create symbolic link to x-terminal-emulator sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1 Select your terminal to use as default sudo update-alternatives --config x-terminal-emulator Restore and remove the alternative link sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL </description>
     </item>
-    
     <item>
       <title>Installing tar.* apps</title>
       <link>https://mkonefal.pl/installing-tar.-apps/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://mkonefal.pl/installing-tar.-apps/</guid>
-      <description> Copy .tar.* to /opt/  cd Downloads sudo cp PROGRAM.TAR.* /opt/ Extract and remove compressed file  cd /opt/ sudo tar -xvf PROGRAM.TAR.* sudo rm -rf PROGRAM.TAR.* Change mode  sudo chmod 777 PROGRAM(EXTRACT) To open apps in launcher create link to /usr/bin/  sudo ln -s /opt/PROGRAM(EXT)/ /usr/bin/PROGRAM-NAME </description>
+      <description> Copy .tar.* to /opt/ cd Downloads sudo cp PROGRAM.TAR.* /opt/ Extract and remove compressed file cd /opt/ sudo tar -xvf PROGRAM.TAR.* sudo rm -rf PROGRAM.TAR.* Change mode sudo chmod 777 PROGRAM(EXTRACT) To open apps in launcher create link to /usr/bin/ sudo ln -s /opt/PROGRAM(EXT)/ /usr/bin/PROGRAM-NAME </description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://mkonefal.pl/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://mkonefal.pl/about/</guid>
-      <description>Self Taught Programmer (still learning) Hello! I&amp;rsquo;m Mateusz Konefał, a passionate 27-year-old programmer with a keen interest in technology and innovation. My journey in the tech world has been self-taught and ever-evolving. Initially focused on front-end development, I have now expanded my expertise to include Python and C, aiming to enhance my skills as a versatile programmer.
- My ultimate goal is to become a full-stack developer, blending my knowledge of HTML, CSS, JS, Python, and C to create seamless, user-friendly digital experiences.</description>
+      <description>Hello! I&amp;rsquo;m Mateusz Konefał, a passionate 27-year-old programmer with a keen interest in technology and innovation. My journey in the tech world has been self-taught and ever-evolving.&#xA;I am currently studying for the COMPTIA A+ certification. I am working on my HomeLab. In the near future, I plan to start learning on Hack The Box.&#xA;When I&amp;rsquo;m not coding, you can find me exploring the world of ham radio – my latest hobby that combines my love of electronics, communication, and community.</description>
     </item>
-    
     <item>
       <title>Links</title>
       <link>https://mkonefal.pl/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://mkonefal.pl/links/</guid>
-      <description>  Github   Linkedin   Youtube   Twitter/X      Searx   </description>
+      <description> Github Linkedin Youtube Twitter/X Searx </description>
     </item>
-    
   </channel>
 </rss>

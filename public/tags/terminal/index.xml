@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>terminal on MKonefal</title>
+    <title>Terminal on MKonefal</title>
     <link>https://mkonefal.pl/tags/terminal/</link>
-    <description>Recent content in terminal on MKonefal</description>
+    <description>Recent content in Terminal on MKonefal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mkonefal.pl/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mkonefal.pl/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change the default terminal emulator in Ubuntu</title>
       <link>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://mkonefal.pl/change-the-default-terminal-emulator-in-ubuntu/</guid>
-      <description> Create symbolic link to x-terminal-emulator  sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1 Select your terminal to use as default  sudo update-alternatives --config x-terminal-emulator Restore and remove the alternative link sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL </description>
+      <description> Create symbolic link to x-terminal-emulator sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /PATH/TO/YOUR/TERMINAL 1 Select your terminal to use as default sudo update-alternatives --config x-terminal-emulator Restore and remove the alternative link sudo update-alternatives --remove x-terminal-emulator /PATH/TO/YOUR/TERMINAL </description>
     </item>
-    
   </channel>
 </rss>
